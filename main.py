@@ -83,7 +83,7 @@ def main():
     user_proxy.initiate_chats([
             {
                 "recipient": coder,
-                "message": "Provide some code to read the contents of 'C:\\\\Users\\\\0B4861649\\\\Documents\\\\GenAI\\\\autogen\\\\files\\\\testFile.cpp'",
+                "message": "Provide some code to read the contents of 'C:\\\\Users\\\\<hidden>\\\\Documents\\\\GenAI\\\\autogen\\\\files\\\\testFile.cpp'",
                 "clear_history": "True",
                 "silent": False,
                 "summary_method": get_code_output,
